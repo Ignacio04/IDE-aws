@@ -1,0 +1,6 @@
+type ListaItens @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  description: String
+  price: Float
+}
